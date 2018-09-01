@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Async">
+      <UniqueIdentifier>{dc0e5768-b828-45e4-8af2-a3d889ebdfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Text">
+      <UniqueIdentifier>{578e3a7a-73bd-4769-a338-81d2a809790b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Exceptions">
+      <UniqueIdentifier>{8613854a-77f7-41ab-b41a-6e126e77305c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Net">
+      <UniqueIdentifier>{2d072347-3a16-4078-94b5-8d4f6574ee0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Net\Socket">
+      <UniqueIdentifier>{e6727c13-1288-4edd-9aa9-c04af3275cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Net">
+      <UniqueIdentifier>{75f480ee-a8a1-4628-8965-db2848c33529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Net\Socket">
+      <UniqueIdentifier>{8db31649-b24b-406d-bc7c-291c4ca57bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Net\Http">
+      <UniqueIdentifier>{0ccfd51d-c80f-4907-b7b3-33d4d43e6a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Net\Http">
+      <UniqueIdentifier>{74ce57e1-f937-4669-9a7f-f452aa1f04de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Contracts">
+      <UniqueIdentifier>{7e1c966c-78ac-414e-914e-01b80019ed2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Serializing">
+      <UniqueIdentifier>{86502a91-6071-4e82-a8bf-eb8a3ee9ded8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Serializing">
+      <UniqueIdentifier>{ce3a4870-6f16-4972-a559-c82afe434d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DependencyInjection">
+      <UniqueIdentifier>{1e2af920-5ad2-4d35-a4bf-20a7d7ff5222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DependencyInjection">
+      <UniqueIdentifier>{8480ffd3-ee78-4380-a559-1030d3a77bec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EAddressFamily.h">
+      <Filter>头文件\Net\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="EAddressType.h">
+      <Filter>头文件\Net\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="EProtocolType.h">
+      <Filter>头文件\Net\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>头文件\Net\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Await.h">
+      <Filter>头文件\Async</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeConvertion.h">
+      <Filter>头文件\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEncoding.h">
+      <Filter>头文件\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketError.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeConvertionError.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Http1_1Packet.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHeaderCollection.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>头文件\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidHttpMessageError.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpError.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Http1_1Server.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpContext.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSessionStorage.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpCookieStorage.h">
+      <Filter>头文件\Net\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeError.h">
+      <Filter>头文件\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializing.h">
+      <Filter>头文件\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSerializer.h">
+      <Filter>头文件\Serializing</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializableObject.h">
+      <Filter>头文件\Serializing</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSerializable.h">
+      <Filter>头文件\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="StringDeserializable.h">
+      <Filter>头文件\Contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoInjectWrapper.h">
+      <Filter>头文件\DependencyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="Bind.h">
+      <Filter>头文件\DependencyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.h">
+      <Filter>头文件\DependencyInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="DIConfig.h">
+      <Filter>头文件\DependencyInjection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>源文件\Net\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="NewHdwApi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Http1_1Packet.cpp">
+      <Filter>源文件\Net\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="Http1_1Server.cpp">
+      <Filter>源文件\Net\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpContext.cpp">
+      <Filter>源文件\Net\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSessionStorage.cpp">
+      <Filter>源文件\Net\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpCookieStorage.cpp">
+      <Filter>源文件\Net\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSerializer.cpp">
+      <Filter>源文件\Serializing</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializableObject.cpp">
+      <Filter>源文件\Serializing</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

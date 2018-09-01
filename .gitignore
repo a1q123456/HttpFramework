@@ -1,0 +1,91 @@
+# Prerequisites
+*.d
+**/.vs
+*/.vs
+*/Debug/*
+*/Release/*
+*/Debug_MP/*
+*/Release_MP/*
+*/ReleaseTool/*
+*/DebugTool/*
+*/Debug_CharTool/*
+*/*.tlog/*
+*/.svn/*
+*/MaxLibrary/*
+*/node_modules/*
+*/Launcher-win32*/*
+*/dist/*
+**/Debug/**
+**/Release/**
+**/Launcher/Patches/*
+
+*.dll
+*.exe
+*.mll
+*.dle
+*.pdb
+*.tlog
+*.sbr
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio Log
+*.ncb
+
+# User settings
+*.suo
+
+# Compiled symbol files
+*.pdb
+*.idb
+*.dep
+*.mdb
+*.mdf
+*.ilk
+# Build log files
+BuildLog.htm
+BuildLog.html
+
+*.rsp
+GameServer/tmp/
+*.aps
+Launcher/out/*
+Launcher/game/*
+**/Debug_MapTool/*
+NodeGypGameLauncher/build/*
+log.txt
+*.log
+*.node
+Launcher/Tmp/*
+Launcher/*.version
+Launcher/soul_version
+3rdparty/gameguard/sym.txt
